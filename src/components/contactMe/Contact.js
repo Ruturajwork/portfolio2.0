@@ -7,9 +7,11 @@ import { Slide } from "react-awesome-reveal";
 import Button from "../Button";
 import MapComponent from "./MapComponent";
 import ContactForm from "./ContactForm";
+import Build from "../../animation/contact1.json";
 const MaimContainer = styled(Container)`
   display: flex;
   flex-direction: row;
+
   @media (max-width: 765px) {
     flex-direction: column;
   }
@@ -18,21 +20,21 @@ const MaimContainer = styled(Container)`
   }
 `;
 const StyledLottie = styled(Lottie)`
-  width: 650px; // Set the desired width here
-  height: 550px; // Set the desired height here
+  width: 550px; // Set the desired width here
+  height: 450px; // Set the desired height here
   margin-left: 3rem;
   @media (max-width: 776px) {
-    width: 500px; // Set the desired width here
-    height: 400px;
+    width: 400px; // Set the desired width here
+    height: 300px;
     margin-left: 0.1rem;
   }
   @media (max-width: 518px) {
-    width: 450px; // Set the desired width here
-    height: 350px;
-  }
-  @media (max-width: 450px) {
     width: 350px; // Set the desired width here
     height: 250px;
+  }
+  @media (max-width: 450px) {
+    width: 280px; // Set the desired width here
+    height: 180px;
   }
   @media (max-width: 366px) {
     margin-top: 1rem;
@@ -52,6 +54,7 @@ const Div1 = styled.div`
   }
 `;
 const Div2 = styled.div`
+  margin-top: 5rem;
   width: 100%;
 `;
 const MainHeader = styled.h1`
@@ -103,7 +106,7 @@ const StyledButton = styled(Button)`
   display: flex;
   justify-content: center;
 `;
-const AddressCard = () => {
+const Contact = () => {
   const latitude = 19.033791,
     longitude = 72.86551,
     zoom = 13;
@@ -112,30 +115,16 @@ const AddressCard = () => {
       <MaimContainer>
         <Div1>
           <Slide direction="left" triggerOnce delay={0}>
-            <StyledLottie animationData={Address} loop={true} />
+            <StyledLottie animationData={Build} loop={true} />
           </Slide>
         </Div1>
         <Div2>
-          <Slide direction="up" duration={1000} triggerOnce={true} delay={0}>
-            <MainHeader>Address</MainHeader>
-          </Slide>
-          <Slide direction="right" triggerOnce>
-            <Heading4>
-              Room No 1013,B Wing, Satguru CHS, Near Singh Sahib GuruDwara,
-              Sion:-400037
-            </Heading4>
-          </Slide>
-          <Slide direction="right" triggerOnce>
-            <StyledButton
-              text={"Visit on Google Maps"}
-              href="https://maps.app.goo.gl/tZbDVELhNewmUyHC9"
-            />
+          <Slide direction="right" duration={1000} triggerOnce={true} delay={0}>
+            <ContactForm />
           </Slide>
         </Div2>
       </MaimContainer>
-      {/* <MapComponent latitude={latitude} longitude={longitude} zoom={zoom} /> */}
-      {/* <ContactForm /> */}
     </>
   );
 };
-export default AddressCard;
+export default Contact;
