@@ -1,0 +1,17 @@
+/* Header.css
+.headers-color {
+  background-color: rgb(237, 249, 254);
+}
+
+.nav-link-with-padding {
+  padding-left: 1rem !important;
+  color: rgb(0, 28, 85);
+  font-size: 1.1rem;
+  text-decoration: none;
+}
+.nav-link-with-padding::after {
+  background-color: black;
+}
+.linkNav {
+  text-decoration: none;
+} */

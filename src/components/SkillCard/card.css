@@ -1,0 +1,46 @@
+.cards {
+  position: relative;
+  display: inline-block;
+}
+
+.cards .img-top {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 99;
+}
+
+.item:hover .img-top {
+  display: inline;
+}
+.item {
+  box-shadow: 0 5px 30px 0 rgba(214, 215, 216, 0.57);
+  border: 0.5px solid rgb(177 239 242 / 50%);
+  border-radius: 5px;
+  padding: 10px;
+  width: 73px;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  border-radius: 5px;
+  background-color: #86fde8;
+}
+
+.services-area .services-items.services-carousel .item {
+  box-shadow: 0 0 10px #cccccc;
+}
+
+.item::after {
+  position: absolute;
+  left: 0;
+  bottom: -100%;
+  content: "";
+  height: 100%;
+  width: 100%;
+  /* background: url("assets/img/16.svg") no-repeat; */
+  background: linear-gradient(to bottom, #ff9e68 33%, #ff68de 130%);
+  opacity: 0;
+  z-index: -1;
+  transition: all 0.25s ease-in-out;
+}
