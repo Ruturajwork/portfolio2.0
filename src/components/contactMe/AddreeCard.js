@@ -133,7 +133,7 @@ const AddressCard = () => {
           </Slide>
         </Div2>
       </MaimContainer>
-      {/* <MapComponent latitude={latitude} longitude={longitude} zoom={zoom} /> */}
+      <MapComponent latitude={latitude} longitude={longitude} zoom={zoom} />
       {/* <ContactForm /> */}
     </>
   );
