@@ -3,13 +3,13 @@ import { Document, Page, pdfjs } from "react-pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 import { Container } from "react-bootstrap";
 import styled from "styled-components";
-import Pdf from "../assets/Resume.pdf";
+import Pdf from "../assets/updatedRuturajResume.pdf";
 import Button from "../components/Button";
 import TopButton from "../components/TopButton/TopButton";
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
 const resumeLink =
-  "https://raw.githubusercontent.com/Ruturajwork/resume/main/RuturajSalunkheResume.pdf";
+  "https://raw.githubusercontent.com/Ruturajwork/resume/main/updatedRuturajResume.pdf";
 
 const HiddenAnnotationLayer = styled.div`
   && {
@@ -69,9 +69,9 @@ const ResumeScreen = () => {
             pageNumber={1}
             scale={
               width > 1200
-                ? 1.6
+                ? 1.8
                 : width > 1027
-                ? 1
+                ? 1.9
                 : width > 900
                 ? 0.9
                 : width > 512
