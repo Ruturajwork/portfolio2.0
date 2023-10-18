@@ -16,7 +16,31 @@ const StyledLottie = styled(Lottie)`
   width: 650px; // Set the desired width here
   height: 550px; // Set the desired height here
   // margin-top: 5rem;
-  @media (max-width: 623px) {
+  @media (max-width: 1322px) {
+    width: 600px;
+    height: 500px;
+  }
+  @media (max-width: 1236px) {
+    width: 550px;
+    height: 450px;
+  }
+  @media (max-width: 1137px) {
+    width: 500px;
+    height: 400px;
+  }
+  @media (max-width: 1033px) {
+    width: 450px;
+    height: 350px;
+  }
+  @media (max-width: 933px) {
+    width: 400px;
+    height: 300px;
+  }
+  @media (max-width: 836px) {
+    width: 370px;
+    height: 270px;
+  }
+  @media (max-width: 767px) {
     width: 500px; // Set the desired width here
     height: 400px;
   }
@@ -48,6 +72,7 @@ const StyledHeading = styled.h1`
 
   @media (max-width: 768px) {
     font-size: 2rem;
+    margin-top: 8px;
   }
 `;
 
@@ -59,6 +84,7 @@ const StyledParagraph = styled.p`
   font-weight: bold;
   padding-left: 3rem;
   opacity: 0.8;
+  text-align: justify;
   @media (max-width: 768px) {
     font-size: 16px;
     line-height: normal;
@@ -72,6 +98,12 @@ const StyledImage = styled(Image)`
   @media (max-width: 768px) {
     margin-left: 3rem;
     line-height: normal;
+  }
+`;
+const RowStyle = styled(Row)`
+  padding-left: 3rem;
+  @media (max-width: 410px) {
+    padding-left: 0.1rem;
   }
 `;
 const StyledSlide = styled(Slide)`
@@ -93,14 +125,14 @@ function MyDetails() {
                 libraries and frameworks.
               </StyledParagraph>
               <SocialMedia />
-              <Row style={{ paddingLeft: "3rem" }}>
+              <RowStyle>
                 <Col>
                   <Button text={"See My Resume"} href={`${seo.resume}`} />
                 </Col>
                 <Col>
                   <Button text={"Contact Me"} href={`${seo.contactMe}`} />
                 </Col>
-              </Row>
+              </RowStyle>
             </StyledCol>
 
             <StyledCol md={6}>
