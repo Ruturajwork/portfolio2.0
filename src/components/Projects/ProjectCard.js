@@ -24,8 +24,9 @@ const Div2 = styled.div`
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  @media (max-width: 768px) {
+  @media (max-width: 367px) {
     flex-direction: column;
+    // justify-content: flex-end;
   }
 `;
 const Div3 = styled.div`
