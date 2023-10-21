@@ -1,10 +1,10 @@
 import SplashAnnimation from "../animation/SplashAnnimation.json";
 import Lottie from "lottie-react";
 import styled from "styled-components";
-
+import SplashName from "./Splash/SplashName";
 const StyledLottie = styled(Lottie)`
   // width: 650px; // Set the desired width here
-  height: 650px; // Set the desired height here
+  height: 600px; // Set the desired height here
   display: flex;
   justify-content: center;
   align-items: center;
@@ -51,6 +51,7 @@ const SplashScreen = () => {
   return (
     <div className="splash-screen">
       <StyledLottie animationData={SplashAnnimation} loop={true} />
+      <SplashName />
     </div>
   );
 };
