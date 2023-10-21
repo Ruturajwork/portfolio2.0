@@ -40,7 +40,9 @@ const StyledFlex = styled.div`
   // display: inline-block;
   flex-direction: row;
   border: 1px solid rgb(8, 121, 191);
-  padding: 1rem;
+  padding: 0.8rem;
+  text-align: center;
+  align-items: center;
   transition: box-shadow 0.3s;
   border-radius: 0.375rem;
   backdrop-filter: saturate(180%) blur(10px);
@@ -62,7 +64,8 @@ const Div1 = styled.div`
   display: flex;
   flex-direction: row;
   flex-flow: wrap;
-  justify-content: space-between;
+  justify-content: center;
+  // align-items: center;
   flex-wrap: wrap;
   padding-left: 2px;
   gap: 2rem;
@@ -76,13 +79,14 @@ const StyledIcon = styled.div`
 `;
 
 const StyledHeading = styled.h3`
-  font-size: 3xl;
+  font-size: 1.2rem;
+  margin-bottom: 0rem !important;
 `;
 const MainHeader = styled.h1`
   font-size: 40px;
   color: rgb(0, 28, 85);
   opacity: 0.9;
-  margin: 4rem;
+  margin: 1.5rem;
   // padding-bottom: 2rem;
   font-weight: 500;
   font-family: "Open Sans", sans-serif;
@@ -94,7 +98,7 @@ const MainHeader = styled.h1`
     font-size: 30px;
   }
 `;
-const Card = ({ children, ic, iconSize = "1.8rem", ...props }) => {
+const Card = ({ children, ic, iconSize = "1.2rem", ...props }) => {
   const skill = [
     { skill: "HTML", ic: DiHtml5 },
     { skill: "CSS", ic: DiCss3 },
@@ -144,9 +148,7 @@ const Card = ({ children, ic, iconSize = "1.8rem", ...props }) => {
                     <IconComponent size={iconSize} />{" "}
                     {/* Use the dynamic icon component */}
                   </StyledIcon>
-                  <StyledHeading my="3" fontSize="3xl">
-                    {item.skill}
-                  </StyledHeading>
+                  <StyledHeading my="3">{item.skill}</StyledHeading>
                 </StyledFlex>
               );
             })}
