@@ -29,7 +29,7 @@ function App() {
     }, 2000); // Simulate a 2-second loading time
   }, []);
 
-  if (!loading) {
+  if (loading) {
     // Show the splash screen while loading
     return <SplashScreen />;
   }
