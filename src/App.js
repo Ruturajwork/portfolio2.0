@@ -26,7 +26,7 @@ function App() {
     // Replace setTimeout with your actual async operation
     setTimeout(() => {
       setLoading(false); // Set loading to false after the async operation is completed
-    }, 2000); // Simulate a 2-second loading time
+    }, 3000); // Simulate a 2-second loading time
   }, []);
 
   if (loading) {
