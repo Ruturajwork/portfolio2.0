@@ -59,33 +59,43 @@ const ResumeScreen = () => {
     setWidth(window.innerWidth);
   }, []);
 
+  let documentComponent = null;
+  let buttonWidth = null;
+  if (width > 469) {
+    buttonWidth = <ButtonStyle1 text={"Download Resume"} href={Pdf} />;
+  }
+  if (width > 469) {
+    documentComponent = (
+      <Document file={resumeLink} onLoadSuccess={onDocumentLoadSuccess}>
+        <StyledPage
+          pageNumber={1}
+          scale={
+            width > 1200
+              ? 1.8
+              : width > 1027
+              ? 1.9
+              : width > 900
+              ? 0.9
+              : width > 512
+              ? 0.6
+              : width > 600
+              ? 0.7
+              : width > 487
+              ? 0.6
+              : width > 469
+              ? 0.2
+              : 1.6
+          }
+        />
+      </Document>
+    );
+  }
+
   return (
     <Container>
       <HiddenAnnotationLayer>
-        <ButtonStyle1 text={"Download Resume"} href={Pdf} />
-        <Document file={resumeLink} onLoadSuccess={onDocumentLoadSuccess}>
-          {/* <StyledPage pageNumber={1} scale={width > 786 ? 1.6 : 0.6} /> */}
-          <StyledPage
-            pageNumber={1}
-            scale={
-              width > 1200
-                ? 1.8
-                : width > 1027
-                ? 1.9
-                : width > 900
-                ? 0.9
-                : width > 512
-                ? 0.6
-                : width > 600
-                ? 0.7
-                : width > 487
-                ? 0.4
-                : width > 469
-                ? 0.3
-                : 1.6
-            }
-          />
-        </Document>
+        {buttonWidth}
+        {documentComponent}
       </HiddenAnnotationLayer>
       <ButtonStyle1 text={"Download Resume"} href={Pdf} />
       <TopButton />

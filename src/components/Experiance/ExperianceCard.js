@@ -69,9 +69,9 @@ const StyledLottie = styled(Lottie)`
   width: 550px; // Set the desired width here
   height: 450px; // Set the desired height here
   margin-top: -5rem;
+  margin-left: 0.3rem;
   @media (max-width: 756px) {
     margin-top: 0rem;
-    margin-left: -3rem;
     width: 550px; // Set the desired width here
     height: 450px;
   }
@@ -84,44 +84,52 @@ const StyledLottie = styled(Lottie)`
     height: 250px;
   }
 `;
+const MaimContainer = styled(Container)`
+  margin-bottom: 2rem;
+  display: flex;
+  flex-direction: row;
+  @media (max-width: 765px) {
+    flex-direction: column;
+  }
+  @media (max-width: 976px) {
+    flex-direction: column;
+  }
+`;
+const Div1 = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  //   margin-left: -5rem;
+  @media (max-width: 765px) {
+    margin-left: 0.1rem;
+  }
+`;
+const Div2 = styled.div`
+  width: 100%;
+`;
 function ExperianceCard() {
   const { title, subtitle, description } = experience;
 
   return (
-    <Container fluid>
+    <MaimContainer>
       <Slide direction="up" duration={2000} triggerOnce={true} delay={0}>
-        <MainDiv>
-          <Row>
-            <StyledCol md={6}>
-              {/* <ImageDiv>
+        <Div1>
+          {/* <ImageDiv>
                 <EducationImg />
               </ImageDiv> */}
-              <StyledLottie animationData={Experiance} loop={true} />
-              {/* <Lottie animationData={EducationAnimation} loop={true} />; */}
-            </StyledCol>
-
-            <StyledCol md={6}>
-              <Slide
-                direction="up"
-                duration={1000}
-                triggerOnce={true}
-                delay={0}
-              >
-                <Heading>{title}</Heading>
-              </Slide>
-              <Slide
-                direction="up"
-                duration={2000}
-                triggerOnce={true}
-                delay={0}
-              >
-                <SubHeading>{description}</SubHeading>
-              </Slide>
-            </StyledCol>
-          </Row>
-        </MainDiv>
+          <StyledLottie animationData={Experiance} loop={true} />
+          {/* <Lottie animationData={EducationAnimation} loop={true} />; */}
+        </Div1>
+        <Div2>
+          <Slide direction="up" duration={1000} triggerOnce={true} delay={0}>
+            <Heading>{title}</Heading>
+          </Slide>
+          <Slide direction="up" duration={2000} triggerOnce={true} delay={0}>
+            <SubHeading>{description}</SubHeading>
+          </Slide>
+        </Div2>
       </Slide>
-    </Container>
+    </MaimContainer>
   );
 }
 export default ExperianceCard;

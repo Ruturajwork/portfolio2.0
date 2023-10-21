@@ -26,7 +26,7 @@ const StyledLottie = styled(Lottie)`
   @media (max-width: 776px) {
     width: 400px; // Set the desired width here
     height: 300px;
-    margin-left: 0.1rem;
+    margin-left: 1.1rem;
   }
   @media (max-width: 518px) {
     width: 350px; // Set the desired width here
@@ -37,7 +37,7 @@ const StyledLottie = styled(Lottie)`
     height: 180px;
   }
   @media (max-width: 366px) {
-    margin-top: 1rem;
+    // margin-top: 1rem;
     width: 250px; // Set the desired width here
     height: 150px;
   }
@@ -56,6 +56,9 @@ const Div1 = styled.div`
 const Div2 = styled.div`
   margin-top: 5rem;
   width: 100%;
+  @media (max-width: 977px) {
+    margin-top: 0.1rem;
+  }
 `;
 const MainHeader = styled.h1`
   font-size: 50px;

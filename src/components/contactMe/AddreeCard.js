@@ -21,6 +21,11 @@ const StyledLottie = styled(Lottie)`
   width: 650px; // Set the desired width here
   height: 550px; // Set the desired height here
   margin-left: 3rem;
+  @media (max-width: 1099px) {
+    width: 500px; // Set the desired width here
+    height: 400px;
+    margin-left: 0.1rem;
+  }
   @media (max-width: 776px) {
     width: 500px; // Set the desired width here
     height: 400px;

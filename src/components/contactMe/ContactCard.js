@@ -21,7 +21,7 @@ const StyledHeading = styled.h1`
   line-height: 1.1;
   color: rgb(0, 28, 85);
   font-family: "Google Sans Bold";
-  margin-top: 80px;
+  margin-top: 5px;
   text-align: center;
 
   @media (max-width: 768px) {
@@ -91,7 +91,7 @@ const Text1 = styled.h3`
   //   }
 `;
 const MaimContainer = styled(Container)`
-  margin-bottom: 8%;
+  margin-bottom: 2rem;
   display: flex;
   flex-direction: row;
   @media (max-width: 765px) {
