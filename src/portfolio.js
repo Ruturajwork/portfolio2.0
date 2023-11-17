@@ -524,7 +524,7 @@ const Projects = [
     createdAt: "2023-10-03T16:10:54Z",
     url: "https://github.com/Ruturajwork/portfolio/",
     backgroundColor: "#198754",
-    projectUrl: "https://rutuportfolio.vercel.app/",
+    projectUrl: "https://ruturajportfolio.vercel.app/",
     description:
       "🤵🏻 The Complete Customizable Software Developer Portfolio Template",
     isFork: false,
