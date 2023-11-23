@@ -136,7 +136,7 @@ const Card = ({ children, ic, iconSize = "1.2rem", ...props }) => {
     <>
       <Container>
         <Slide direction="up" duration={1000} triggerOnce={true} delay={0}>
-          <MainHeader>Proffesional Skillset</MainHeader>
+          <MainHeader>Profesional Skillset</MainHeader>
         </Slide>
         <Zoom>
           <Div1>
