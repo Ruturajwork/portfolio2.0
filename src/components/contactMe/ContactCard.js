@@ -134,7 +134,7 @@ function ContactCard() {
           <Text>
             DISCUSS A PROJECT OR JUST WANT TO SAY HI? MY INBOX IS OPEN FOR ALL.
           </Text>
-          <Text1>Open for opportunities: NO</Text1>
+          <Text1>Open for opportunities: Yes</Text1>
 
           <SocialMedia />
           <StyledButton text={"See My Resume"} href={resumeLink} />
