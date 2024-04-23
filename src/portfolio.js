@@ -397,7 +397,7 @@ const Projects = [
     imgPath: "shopsite2.png",
     createdAt: "2022-05-31T20:41:33Z",
     url: "https://github.com/Ruturajwork/ecommerce-website",
-    projectUrl: "http://172.105.34.231/",
+    projectUrl: "https://rshopstore.vercel.app/",
     backgroundColor: "#0077B5",
     description:
       "🛒 Full stack E-commerce web application made with latest tranding technologies that comes with many Features.",
