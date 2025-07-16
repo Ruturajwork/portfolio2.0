@@ -547,6 +547,37 @@ const Projects = [
         iconifyClass: <FaReact />,
       },
     ],
+  },{
+    id: "7",
+    name: "Ecommerce Store",
+    imgPath: "blog.png",
+    createdAt: "2022-05-31T20:41:33Z",
+    url: "https://github.com/Ruturajwork/BlogWebsite",
+    projectUrl: "https://ruturajblogs.vercel.app/",
+    backgroundColor: "#0077B5",
+    description:
+      "🛒 Full stack Blogs application made with latest tranding technologies that comes with many Features.",
+    isFork: false,
+    features:
+      "Authorization using JWT, Rest Api, Login, Logout, View Profile and Update, Admin Access , Add Blogs,View Your Blogs",
+    languages: [
+      {
+        name: "HTML",
+        iconifyClass: <FaHtml5 />,
+      },
+      {
+        name: "CSS",
+        iconifyClass: <FaCss3 />,
+      },
+      {
+        name: "JavaScript",
+        iconifyClass: <SiJavascript />,
+      },
+      {
+        name: "React",
+        iconifyClass: <FaReact />,
+      },
+    ],
   },
 ];
 
