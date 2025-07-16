@@ -549,7 +549,7 @@ const Projects = [
     ],
   },{
     id: "7",
-    name: "Ecommerce Store",
+    name: "Blog Application",
     imgPath: "blog.png",
     createdAt: "2022-05-31T20:41:33Z",
     url: "https://github.com/Ruturajwork/BlogWebsite",
