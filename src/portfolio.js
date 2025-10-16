@@ -423,9 +423,9 @@ const Projects = [
       },
     ],
   },
-   {
+  {
     id: "3",
-    name: "HRMS POrtal",
+    name: "HRMS Portal",
     imgPath: "HRMS-DASHBOARD.png",
     createdAt: "2024-05-31T20:41:33Z",
     url: "https://github.com/Ruturajwork/hrms-project",
@@ -549,7 +549,7 @@ const Projects = [
       },
     ],
   },
-   {
+  {
     id: "7",
     name: "Blog Application",
     imgPath: "blog.png",
@@ -612,7 +612,6 @@ const Projects = [
       },
     ],
   },
- 
 ];
 
 export {
