@@ -423,8 +423,40 @@ const Projects = [
       },
     ],
   },
-  {
+   {
     id: "3",
+    name: "HRMS POrtal",
+    imgPath: "HRMS-DASHBOARD.png",
+    createdAt: "2024-05-31T20:41:33Z",
+    url: "https://github.com/Ruturajwork/ecommerce-website",
+    projectUrl: "#",
+    backgroundColor: "#0077B5",
+    description:
+      "🛒 Full stack HRMS web application made with latest tranding technologies that comes with many Features.",
+    isFork: false,
+    features:
+      "Authorization using JWT, Rest Api, Login, Logout, Mark login, Leaves, View Profile and Update, Admin Access , Download Attendence Sheet, View leaves Count",
+    languages: [
+      {
+        name: "HTML",
+        iconifyClass: <FaHtml5 />,
+      },
+      {
+        name: "CSS",
+        iconifyClass: <FaCss3 />,
+      },
+      {
+        name: "JavaScript",
+        iconifyClass: <SiJavascript />,
+      },
+      {
+        name: "React",
+        iconifyClass: <FaReact />,
+      },
+    ],
+  },
+  {
+    id: "4",
     name: "Invoice Generator",
     createdAt: "2022-02-11T14:50:20Z",
     imgPath: "invoicegenerator.png",
@@ -455,7 +487,7 @@ const Projects = [
     ],
   },
   {
-    id: "4",
+    id: "5",
     name: "Or-Code Generator",
     imgPath: "qrcodegenerator.png",
     createdAt: "2021-11-26T17:56:07Z",
@@ -486,7 +518,7 @@ const Projects = [
     ],
   },
   {
-    id: "5",
+    id: "6",
     name: "Spotify Clone",
     imgPath: "spotifyClone.png",
     createdAt: "2022-08-10T06:36:41Z",
@@ -517,37 +549,7 @@ const Projects = [
       },
     ],
   },
-  {
-    id: "6",
-    name: "Portfolio1.0",
-    imgPath: "portfolio1.0.png",
-    createdAt: "2023-10-03T16:10:54Z",
-    url: "https://github.com/Ruturajwork/portfolio/",
-    backgroundColor: "#198754",
-    projectUrl: "https://ruturajportfolio.vercel.app/",
-    description:
-      "🤵🏻 The Complete Customizable Software Developer Portfolio Template",
-    isFork: false,
-    features: `Portfolio Template which lets you showcase your work and provides each and every detail about you as Software Developer.`,
-    languages: [
-      {
-        name: "HTML",
-        iconifyClass: <FaHtml5 />,
-      },
-      {
-        name: "CSS",
-        iconifyClass: <FaCss3 />,
-      },
-      {
-        name: "JavaScript",
-        iconifyClass: <SiJavascript />,
-      },
-      {
-        name: "React",
-        iconifyClass: <FaReact />,
-      },
-    ],
-  },{
+   {
     id: "7",
     name: "Blog Application",
     imgPath: "blog.png",
@@ -579,6 +581,38 @@ const Projects = [
       },
     ],
   },
+  {
+    id: "8",
+    name: "Portfolio1.0",
+    imgPath: "portfolio1.0.png",
+    createdAt: "2023-10-03T16:10:54Z",
+    url: "https://github.com/Ruturajwork/portfolio/",
+    backgroundColor: "#198754",
+    projectUrl: "https://ruturajportfolio.vercel.app/",
+    description:
+      "🤵🏻 The Complete Customizable Software Developer Portfolio Template",
+    isFork: false,
+    features: `Portfolio Template which lets you showcase your work and provides each and every detail about you as Software Developer.`,
+    languages: [
+      {
+        name: "HTML",
+        iconifyClass: <FaHtml5 />,
+      },
+      {
+        name: "CSS",
+        iconifyClass: <FaCss3 />,
+      },
+      {
+        name: "JavaScript",
+        iconifyClass: <SiJavascript />,
+      },
+      {
+        name: "React",
+        iconifyClass: <FaReact />,
+      },
+    ],
+  },
+ 
 ];
 
 export {
