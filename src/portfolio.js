@@ -428,7 +428,7 @@ const Projects = [
     name: "HRMS POrtal",
     imgPath: "HRMS-DASHBOARD.png",
     createdAt: "2024-05-31T20:41:33Z",
-    url: "https://github.com/Ruturajwork/ecommerce-website",
+    url: "https://github.com/Ruturajwork/hrms-project",
     projectUrl: "#",
     backgroundColor: "#0077B5",
     description:
