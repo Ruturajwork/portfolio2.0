@@ -6,7 +6,7 @@ import Coading from "../../animation/build.json";
 import Lottie from "lottie-react";
 import "./Degree.css";
 const MaimContainer = styled(Container)`
-  margin-bottom: 8%;
+  // margin-bottom: 8%;
   display: flex;
   flex-direction: row;
   @media (max-width: 765px) {

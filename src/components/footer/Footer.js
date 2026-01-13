@@ -17,7 +17,7 @@ const Paragraph = styled.p`
 `;
 function Footer() {
   return (
-    <div style={{ marginTop: "7rem", backgroundColor: "rgb(237, 249, 254)" }}>
+    <div style={{ marginTop: "3rem", backgroundColor: "rgb(237, 249, 254)" }}>
       <Paragraph>
         {" "}
         Made with ❤️ © {new Date().getFullYear()} Ruturaj Salunkhe

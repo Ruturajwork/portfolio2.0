@@ -90,7 +90,7 @@ const ParagraphContainer = styled.div`
 
 const StyledH1 = styled.h1`
   color: rgb(0, 28, 85);
-  padding-top: 30px;
+  // padding-top: 30px;
   font-size: 4rem;
   text-align: center;
 
@@ -145,7 +145,7 @@ const BackgroundImageContainer = styled.div`
   background-size: 240px 240px;
   background-repeat: no-repeat;
   background-position: right 17rem;
-  padding: 20px; /* Adjust padding as needed */
+  padding: 2.2rem; /* Adjust padding as needed */
   @media (max-width: 470px) {
     background-image: none;
   }
@@ -225,25 +225,6 @@ function Skills() {
                 </Paragraph>
               </Slide>
             </BackgroundImageContainer>
-            {/* </ParagraphContainer> */}
-            {/* <ImageContainer>
-              <Image
-                src={Arrow}
-                alt="Your Image"
-                style={{ width: "50px" }}
-                fluid
-              />
-            </ImageContainer> */}
-
-            {/* <Image src={Arrow} style={{ width: "50px" }} /> */}
-            {/* <Row style={{ paddingLeft: "3rem" }}>
-              <Col>
-                <Button text={"See My Resume"} href={`${seo.resume}`} />
-              </Col>
-              <Col>
-                <Button text={"Contact Me"} href={`${seo.contactMe}`} />
-              </Col>
-            </Row> */}
           </StyledCol>
         </StyledRow>
       </StyledContainer>

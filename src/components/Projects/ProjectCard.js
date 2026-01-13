@@ -58,7 +58,7 @@ export const CardText = styled(Card.Text)`
   }
 `;
 const StyledCard = styled(Card)`
-  width: 24rem;
+  width: 22rem;
   margin-bottom: 2rem;
   border-radius: 5px;
   box-shadow: rgb(217, 219, 223) 5px 5px 5px;

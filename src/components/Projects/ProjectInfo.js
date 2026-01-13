@@ -6,7 +6,7 @@ import { Container } from "react-bootstrap";
 import { Slide } from "react-awesome-reveal";
 
 const MaimContainer = styled(Container)`
-  margin-bottom: 8%;
+  // margin-bottom: 8%;
   display: flex;
   flex-direction: row;
   @media (max-width: 765px) {

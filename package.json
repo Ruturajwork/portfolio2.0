@@ -2,7 +2,7 @@
   "name": "ruturajportfolio",
   "version": "0.1.0",
   "private": true,
-   "engines": {
+  "engines": {
     "node": "22.x"
   },
   "dependencies": {
@@ -26,7 +26,7 @@
     "react-dom": "^18.2.0",
     "react-icons": "^4.11.0",
     "react-leaflet": "^4.2.1",
-    "react-pdf": "^7.5.0",
+    "react-pdf": "^10.3.0",
     "react-router-dom": "^6.15.0",
     "react-scripts": "5.0.1",
     "styled-components": "^6.0.8",
