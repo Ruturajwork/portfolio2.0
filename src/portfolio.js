@@ -324,7 +324,7 @@ const experience = {
           duration: "Feb 2022 - Aug 2022",
           location: "Work From Home",
           description:
-            "Developed and maintained web applications using the MERN Stack (MongoDB, Express.js, React.js, Node.js).Collaborated with cross-functional teams to gather and analyze requirements, design solutions, and implement features. Maintained a user satisfaction rating of 100% year over year by providing responsive tech support to clients.",
+            "Designed, developed, and deployed scalable web applications using the MERN stack (MongoDB, Express.js, React.js, Node.js). Worked directly with clients to gather requirements, translate business needs into technical solutions, and deliver high-quality features on time. Provided ongoing maintenance, performance optimization, and technical support, achieving a 100% client satisfaction rate through clear communication and reliable delivery.",
           color: "rgb(8, 121, 191)",
         },
         {
@@ -335,7 +335,7 @@ const experience = {
           duration: "June 2022 - Present",
           location: "Thane, Maharastra",
           description:
-            "Developed and maintained web applications using the MERN Stack (MongoDB, Express.js, React.js, Node.js).Collaborated with cross-functional teams to gather and analyze requirements, design solutions, and implement features. Maintained a user satisfaction rating of 100% year over year by providing responsive tech support to clients.",
+            "Leading end-to-end development of production-ready web applications using the MERN stack. Collaborating closely with product managers, designers, and backend teams to architect scalable solutions, implement complex features, and improve application performance. Actively involved in code reviews, debugging, and deployment processes while consistently maintaining high user satisfaction through proactive support and continuous improvement.",
           color: "rgb(155, 21, 120)",
         },
       ],
