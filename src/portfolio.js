@@ -583,6 +583,38 @@ const Projects = [
   },
   {
     id: "8",
+    name: "Resume-Maker",
+    createdAt: "2023-10-03T16:10:54Z",
+    url: "https://github.com/Ruturajwork/Resume-Maker",
+    imgPath: "resume-maker.png",
+    projectUrl: "https://resumemaker1.vercel.app/",
+    description:
+      "📝 A fully customizable Resume Builder that lets you create professional resumes with multiple templates. Showcase your skills, education, experience, and achievements effortlessly, and generate a resume that perfectly matches your style. Ideal for job seekers, freelancers, and developers who want a polished, modern CV in minutes.",
+    isFork: false,
+    backgroundColor: "#333",
+    features:
+      "Multiple resume templates, fully customizable sections, live preview, one-click PDF export, add/remove sections, responsive design, user-friendly interface, and reusable templates.",
+    languages: [
+      {
+        name: "HTML",
+        iconifyClass: <FaHtml5 />,
+      },
+      {
+        name: "CSS",
+        iconifyClass: <FaCss3 />,
+      },
+      {
+        name: "JavaScript",
+        iconifyClass: <SiJavascript />,
+      },
+      {
+        name: "React",
+        iconifyClass: <FaReact />,
+      },
+    ],
+  },
+  {
+    id: "9",
     name: "Portfolio1.0",
     imgPath: "portfolio1.0.png",
     createdAt: "2023-10-03T16:10:54Z",
